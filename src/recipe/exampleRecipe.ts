@@ -1,0 +1,90 @@
+import { Trecipe } from './types'
+
+export const brownies: Trecipe = {
+    title: "Cakey Brownies",
+    subtitle: null,
+    miseEnPlace: [
+        {
+            title: "Large Bowl",
+            ingredients: { ingredient: "Granulated Sugar", preparation: "", amount: [[2.25, "cups"], [447, "g"]] }
+        },
+        {
+            title: "Small Bowl",
+            ingredients: [
+                {
+                    ingredient: "Dutch-process Cocoa",
+                    preparation: "",
+                    amount: [[1.25, "cups"], [106, "g"]]
+                },
+                {
+                    ingredient: "Baking Powder",
+                    preparation: "",
+                    amount: [1, "tsp"]
+                },
+                {
+                    ingredient: "Salt",
+                    preparation: "",
+                    amount: [0.5, "tsp"]
+                }
+            ]
+        },
+        {
+            title: "Medium Bowl",
+            ingredients: {
+                ingredient: "All-Purpose Flour",
+                preparation: "",
+                amount: [[1.5, "cups"], [180, "g"]]
+            }
+        },
+        {
+            title: "Optional Mix-ins",
+            ingredients: [
+                {
+                    ingredient: "Chopped Walnuts or Pecans",
+                    preparation: "",
+                    amount: [2, "cups"]
+                },
+                {
+                    ingredient: "Chocolate Chips",
+                    preparation: "",
+                    amount: [2, "cups"]
+                }
+            ]
+        },
+        {
+            ingredient: "Large Eggs",
+            preparation: "",
+            amount: [5, "count"]
+        },
+        {
+            ingredient: "Water",
+            preparation: "",
+            amount: [0.5, "cups"]
+        },
+        {
+            ingredient: "Salted Butter",
+            preparation: "Melted",
+            amount: [2, "sticks"]
+        },
+        {
+            ingredient: "Vanilla Extract",
+            preparation: "",
+            amount: [1, "Tbsp"]
+        }
+    ],
+    equipment: "9\" x 13\" pan",
+    instructions: [
+        "Preheat the oven to 350°F (175°C). Lightly grease the 9\" x 13\" pan.",
+        "Melt the butter and set aside to cool slightly.",
+        "In the large bowl, combine the melted butter and granulated sugar. Stir until smooth.",
+        "Add the cocoa, salt, baking powder, and vanilla extract to the butter-sugar mixture. Stir until fully incorporated.",
+        "Beat in the eggs one at a time, mixing well after each addition. (You’re now done with the beaters.)",
+        "Scrape down the sides of the bowl and stir in the water until the mixture is smooth.",
+        "Toss the optional mix-ins (nuts and/or chocolate chips) in the flour to coat them.",
+        "Add the flour and coated mix-ins to the wet mixture. Stir until thoroughly combined.",
+        "Spoon the batter into the prepared pan and spread it evenly.",
+        "Bake for 28 to 30 minutes, or until the top is dry and a toothpick inserted in the center comes out clean or with just a few moist crumbs.",
+        "Remove from the oven and allow to cool on a rack before cutting and serving.",
+        "Optional: Glaze or frost the brownies once cooled, if desired."
+    ]
+}

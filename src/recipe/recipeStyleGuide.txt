@@ -1,0 +1,73 @@
+📌 Recipe Style Guide
+
+    JSON format
+        The recipe should be stored like so:
+            {
+                title:
+                subtitle:
+                miseenplace: [
+                    {ingredient: "Red Onion", preparation: "Finely diced", amount: [[1,"Cup"],[1,"large"]]},
+                    {group: "Dry ingredients", ingredients: [
+                        
+                    ]}
+
+                    ]
+                ]
+
+            }
+
+
+    Title & Subtitle
+
+        Provide a clear dish name as the title.
+
+        Use the subtitle to list:
+            Serving suggestions (e.g., “Serve over rice or toast”)
+            Garnishes or toppings (e.g., “Top with green onion or chili flakes”)
+
+    Mise en Place (Ingredients List)
+
+        Ingredients sorted in this order (but do not show category labels):
+            Dry ingredients
+            Liquid ingredients
+            Vegetables
+            Dairy
+            Fresh herbs
+            Onions
+            Garlic, Ginger, other Aromatics
+            Animal products (e.g., meat, eggs)
+
+        Use abbreviations for units where appropriate:
+        tsp, TBSP, C, lb, etc.
+
+        If an ingredient is used in more than one step with different quantities, list it separately for each use.
+
+        Equivalents are formatted like:
+        1 C or 2 sticks
+
+        Group ingredients only if they are intentionally mixed before use (e.g., spice mix, marinade).
+
+    Instructions
+
+        Use a numbered list.
+
+        Every step starts with a hook: a short, action-oriented summary of the step (e.g., “Toast the seeds.” “Add the garlic.”).
+
+        If a time-based wait or action is included, begin a new step after it.
+
+        Do not abbreviate units in this section (write “tablespoons,” not “TBSP”).
+
+        Refer to ingredients using the shortest descriptive name necessary.
+
+        If preheating the oven is required, this must be Step 1.
+
+        Notes may be inserted between steps and must begin with NOTE: but are not numbered.
+
+Presentation:
+    Title as an H1
+    Subtitle as ?????
+    H2 Mise em place 
+        Bulleted list, with sublist indentations for grouped ingredients.
+        Each ingredient follows this format:
+        Ingredient (Preparation) – Amount
+        Example: Red Onion (Finely Diced) – 2 C or 1 large
