@@ -1,6 +1,6 @@
 import { Box, Heading } from '@chakra-ui/react';
 import { brownies } from './exampleRecipe';
-import './recipe.css';
+import Section from './section';
 import { Tamount, Tingredient } from './types';
 
 export default function RecipeExample() {
@@ -22,7 +22,6 @@ export default function RecipeExample() {
 
     function listMiseEnPlace() {
         return <ol id='mise-en-place'>
-            <Heading as={'h2'}>Mise en Place</Heading>
             {
                 recipe.miseEnPlace.map((item) => {
                     // Handle groups first
@@ -90,10 +89,10 @@ export default function RecipeExample() {
         </Box>
         <Box id='recipeBody'>
             <Box id='prep'>
-                <Box padding={3} border={'1px solid black'}>{listMiseEnPlace()}</Box>
-                <Box>{listEquipment()}</Box>
+                <Section id='mep' title='Mise En Place'>{listMiseEnPlace()}</Section>
+                <Section id='equipment' title='Equipment'>{listEquipment()}</Section>
             </Box>
-            <Box id='act'>{displayInstructions()}</Box>
+            <Section id='act' title='Instructions'>{displayInstructions()}</Section>
         </Box>
     </Box   >
 

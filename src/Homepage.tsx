@@ -1,7 +1,8 @@
-import RecipeExample from "./recipe/RecipeExample";
+import DisplaySimple from "./recipe/DisplaySimple";
 
 export default function Home() {
     return (<>
-    <RecipeExample />
+    {/* <RecipeExample /> */}
+    <DisplaySimple />
     </>)
 }
