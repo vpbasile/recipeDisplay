@@ -1,10 +1,9 @@
 import { Box, Heading } from '@chakra-ui/react';
-import { stew } from './peanutstew';
-import Section from './section';
-import { simpleRecipe } from './types';
+import recipe from './toast.json';
+// import { simpleRecipe } from './types';
+import Section from './Section';
 
 export default function DisplaySimple() {
-    const recipe: simpleRecipe = stew
     let sectionID = 0
     return (<Box>
         <Box >

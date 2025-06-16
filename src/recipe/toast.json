@@ -1,0 +1,21 @@
+{
+  "title": "Buttered Toast",
+  "subtitle": "A simple classic, perfect for breakfast or a snack.",
+  "sections": [
+    {
+      "title": "Ingredients",
+      "list": [
+        "Bread - 2 slices",
+        "Butter - 2 tablespoons, softened"
+      ]
+    },
+    {
+      "title": "Instructions",
+      "list": [
+        "Spread the softened butter evenly over one side of each slice of bread.",
+        "Place the bread slices, butter-side up, in a toaster or under a broiler until golden brown.",
+        "Serve immediately and enjoy!"
+      ]
+    }
+  ]
+}
