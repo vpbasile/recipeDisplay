@@ -1,5 +1,5 @@
 import { Box, Heading } from '@chakra-ui/react';
-import recipe from './toast.json';
+import recipe from './brownies2.json';
 // import { simpleRecipe } from './types';
 import Section from './Section';
 
